@@ -4,6 +4,7 @@ import Icon from "./components/icon";
 import Button from "./components/button";
 import ButtonIcon from "./components/button-icon";
 import InputText from "./components/input-text";
+import InputCheckbox from "./components/input-checkbox";
 
 //importação dos ícones svg
 import TrashIcon from "./assets/icons/Trash.svg?react";
@@ -66,7 +67,9 @@ export default function App() {
         <InputText placeholder="Digite sua tarefa..." />
       </div>
 
-
+      <div>
+        <InputCheckbox />
+      </div>
 
 
     </div>
