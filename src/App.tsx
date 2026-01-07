@@ -3,6 +3,7 @@ import Text from "./components/text";
 import Icon from "./components/icon";
 import Button from "./components/button";
 import ButtonIcon from "./components/button-icon";
+import InputText from "./components/input-text";
 
 //importação dos ícones svg
 import TrashIcon from "./assets/icons/Trash.svg?react";
@@ -18,7 +19,7 @@ import Badge from "./components/badge";
 export default function App() {
 
   return (
-    <div className="grid gap-3">
+    <div className="grid gap-10">
       <div className="flex flex-col gap-1">
         <Text variant="body-sm-bold" className="text-pink-base">
           olá mundo !!
@@ -59,6 +60,10 @@ export default function App() {
         <ButtonIcon  icon={TrashIcon} />
         <ButtonIcon  icon={TrashIcon} variant="secondary"/>
         <ButtonIcon  icon={TrashIcon} variant="tertiary" />
+      </div>
+
+      <div>
+        <InputText placeholder="Digite sua tarefa..." />
       </div>
 
 
