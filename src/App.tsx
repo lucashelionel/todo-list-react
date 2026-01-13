@@ -7,6 +7,7 @@ import InputText from "./components/input-text";
 import InputCheckbox from "./components/input-checkbox";
 import Card from "./components/card";
 import Container from "./components/container";
+import Skeleton from "./components/skeleton";
 
 //importação dos ícones svg
 import TrashIcon from "./assets/icons/Trash.svg?react";
@@ -78,8 +79,14 @@ export default function App() {
       <div>
         <Card size="md">olá mundo!!!</Card>
       </div>
-    </div>
 
+      <div className="space-y-2 ">
+        <Skeleton className=" h-6" />
+        <Skeleton className=" h-6" />
+        <Skeleton className="w-96 h-6" />
+      </div>
+
+    </div>
     </Container>
   );
 }
