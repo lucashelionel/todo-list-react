@@ -74,3 +74,5 @@ export default defineConfig([
 utilização da biblioteca CVA para tornar os componentes mais dinamicos e colocar variantes padrões neles
 
 e vite-plugin-svgr para transformar icones SVG em componentes React
+core-components -> são os componentes principais 
+já os components -> são componentes genericos que 
