@@ -57,6 +57,7 @@ export default function PageComponents() {
 
       <div>
         <Button icons={PlusIcon}>Nova tarefa</Button>
+        <Button icons={PlusIcon} handling>Criando ...</Button>
       </div>
 
 
@@ -65,6 +66,7 @@ export default function PageComponents() {
         <ButtonIcon  icon={TrashIcon} variant="secondary"/>
         <ButtonIcon  icon={TrashIcon} variant="tertiary" />
         <ButtonIcon  icon={TrashIcon} loading />
+        <ButtonIcon  icon={TrashIcon} handling />
       </div>
 
       <div>
